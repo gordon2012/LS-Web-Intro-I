@@ -1,0 +1,16 @@
+{
+  "name": "lambda-web1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:gordon2012/lambda-web1.git",
+  "author": "Gordon Doskas <gordon2012@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.11"
+  },
+  "scripts": {
+    "start:1": "browser-sync start --no-notify --server \"one\" --files \"one\"",
+    "start:2": "browser-sync start --no-notify --server \"two\" --files \"two\"",
+    "start:3": "browser-sync start --no-notify --server \"three\" --files \"three\""
+  }
+}

@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+.app {
+    background-color: grey;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: red;
+    flex-basis: 125px;
+}
+footer {
+    background-color: green;
+    flex-basis: 125px;
+}
+main {
+    flex: 1;
+    display: flex;
+}
+
+section {
+    flex-basis: 33.33%;
+}
+section.one {
+    background-color: blue;
+}
+section.two {
+    background-color: purple;
+}
+section.three {
+    background-color: yellow;
+}
