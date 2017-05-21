@@ -9,8 +9,7 @@
     "browser-sync": "^2.18.11"
   },
   "scripts": {
-    "start:1": "browser-sync start --no-notify --server \"one\" --files \"one\"",
-    "start:2": "browser-sync start --no-notify --server \"two\" --files \"two\"",
-    "start:3": "browser-sync start --no-notify --server \"three\" --files \"three\""
+    "start": "browser-sync start --no-notify --server \"src\" --files \"src\"",
+    "deploy": "surge src lambda-web1.gordondoskas.com"
   }
 }
